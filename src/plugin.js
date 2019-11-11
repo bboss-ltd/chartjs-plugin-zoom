@@ -564,6 +564,14 @@ var zoomPlugin = {
 			doZoom(chartInstance, 0.9, 0.9, center);
 			doZoom(chartInstance, 0.9, 0.9, center);
 		};
+		
+		chartInstance.PanRight = function(){
+			doPan(chartInstance, -5, 0);
+		}
+
+		chartInstance.PanLeft = function () {
+			doPan(chartInstance, 5, 0);
+		}
 
 		if (Hammer) {
 			var mc = new Hammer.Manager(node);
