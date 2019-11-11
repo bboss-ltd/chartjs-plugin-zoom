@@ -1,4 +1,4 @@
-# chartjs-plugin-zoom
+# chartjs-plugin-zoom - bboss fork
 
 A zoom and pan plugin for Chart.js. Currently requires Chart.js >= 2.6.0
 
